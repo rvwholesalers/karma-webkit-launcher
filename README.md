@@ -1,21 +1,13 @@
 # karma-webkit-launcher
 
-[![Build status: Playwright (MacOS)](https://github.com/google/karma-webkit-launcher/actions/workflows/playwright_macos_tests.yml/badge.svg)](https://github.com/google/karma-webkit-launcher/actions/workflows/playwright_macos_tests.yml)
-[![Build status: Playwright (Ubuntu)](https://github.com/google/karma-webkit-launcher/actions/workflows/playwright_ubuntu_tests.yml/badge.svg)](https://github.com/google/karma-webkit-launcher/actions/workflows/playwright_ubuntu_tests.yml)
-[![Build status: Playwright (Windows)](https://github.com/google/karma-webkit-launcher/actions/workflows/playwright_windows_tests.yml/badge.svg)](https://github.com/google/karma-webkit-launcher/actions/workflows/playwright_windows_tests.yml)
-[![Build status: Epiphany](https://github.com/google/karma-webkit-launcher/actions/workflows/epiphany_tests.yml/badge.svg)](https://github.com/google/karma-webkit-launcher/actions/workflows/epiphany_tests.yml)
-[![NPM version](https://img.shields.io/npm/v/karma-webkit-launcher.svg)](https://www.npmjs.org/package/karma-webkit-launcher)
-
-[![NPM](https://nodei.co/npm/karma-webkit-launcher.png?downloads=true&downloadRank=true)](https://nodei.co/npm/karma-webkit-launcher/)
-
 Karma Launcher for Apple's Webkit
 
 ## Installation
 
-The easiest way is to keep karma-webkit-launcher as a devDependency in your package.json, by running
+Add the following line to the `devDependencies` section of package.json.
 
-```bash
-npm install karma-webkit-launcher --save-dev
+```
+  "karma-webkit-launcher": "git+https://github.com/rvwholesalers/karma-webkit-launcher#main"
 ```
 
 ## Supported WebKit-Launcher
